@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="css-api" />
+        <module name="css-common" />
+        <module name="eureka-client-consumer-8084" />
+        <module name="eureka-client-provider" />
+        <module name="eureka-client-provider-8083" />
+        <module name="eureka-server-8081" />
+        <module name="eureka-server-8082" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="css-es" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Css" options="-parameters" />
+      <module name="css-api" options="-parameters" />
+      <module name="css-common" options="-parameters" />
+      <module name="css-es" options="-parameters" />
+      <module name="eureka-client-consumer-8084" options="-parameters" />
+      <module name="eureka-client-provider" options="-parameters" />
+      <module name="eureka-client-provider-8083" options="-parameters" />
+      <module name="eureka-server-8081" options="-parameters" />
+      <module name="eureka-server-8082" options="-parameters" />
+    </option>
+  </component>
+</project>
